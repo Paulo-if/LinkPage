@@ -1,0 +1,88 @@
+<!DOCTYPE html>  <!--Define um documento HTML5-->
+<html lang="pt-br" class="">    <!-- Defineo idioma como português do Brasil -->
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">  <!-- Define a codificação de caracteres como UTF-8 (~ ^ essas coisas )) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   <!--Ele define o tamanho da viewport para cada dispositivo-->
+        <title>Projeto Links</title>
+        <link rel="stylesheet" href="./style.css">  <!--Aqui eu defino o link de onde vai estar o meu arquivo css | ./ "ele fala" que está nessa própria pasta-->
+    
+    </head>     <!--Ajusta config do documento que n é visível na página-->
+
+    <body>
+        <div id="container"> <!--ID é o identificador do o elemento div, ou seja, essa linha tem como identificador(id): container-->
+           
+            <div id="profile">  <!--Quando fazemos "#qualquernome" gera uma linha de codigo div com id="qualquernome" -->
+                
+                <img src="./assets/assets/Minha logo.png" alt="Foto de Perfil">  <!--Aqui eu coloco a imagem do perfil | alt == se n achar a foto vai aparecer "Foto de Perfil"-->
+            
+            
+            </div> 
+    
+            <div id="switch" onclick="toggleMode()">
+
+                <button>
+                </button>
+                <span>
+
+                </span>
+            </div>
+
+            <div id="links"> 
+                <ul>
+
+                <li>
+                    <a href="https://www.tiktok.com/@otaviopaul0" target="_blank" >TikTok</a> <!--Esse target="_blank" ao clicar ele faz com que abra outro aba para aquele link-->
+                </li>
+
+                <li>
+                    <a href="https://github.com/Paulo-if " target="_blank" >GitHub</a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/otaviopaul0" target="_blank" >Instagram</a>
+                </li>
+
+
+                </ul>  
+            </div> 
+
+            <div id="social-links">
+                
+                <a href="https://github.com/Paulo-if" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+
+                <a href="https://www.instagram.com/otaviopaul0/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/paulootavi0/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                
+            </div>
+
+            <footer> <!--Footer é usado geralmente para fazer o rodape do site--> 
+                <a>🎈 ⛏️</a>
+                
+                
+            </footer>
+                
+            
+                
+        </div>
+
+        <!--Essa parte aqui embaixo e do ionicons, para usar os icons do social-links-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+        <script src="./script.js">
+
+        </script>
+        
+    </body>
+</html>
