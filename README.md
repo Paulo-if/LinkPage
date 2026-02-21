@@ -2,6 +2,8 @@
   <h1>🔗LinkPage</h1>
   
   <p>Uma página de links personalizável, feita para links na bio de redes sociais como o instagram.</br> </p>
+
+  <p>Visualize o projeto 👉 <a href="https://paulo-if.github.io/LinkPage/">LinkPage</a></p>
   
 </div>
 
